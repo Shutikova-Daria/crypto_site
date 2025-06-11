@@ -1744,7 +1744,8 @@ border-radius: 30px;
 
 .start-now__btn {
   display: inline-block;
-  background-color: #8b5cf6;
+  
+  background: linear-gradient(180deg, #873BD4 0%, #461F6E 100%); ;
   color: #ffffff;
   padding: 15px 26px;
   font-size: 16px;
