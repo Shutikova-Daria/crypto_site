@@ -1,67 +1,53 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Onest";
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/Onest-VariableFont_wght.ttf");
-  src: url("../fonts/Onest-VariableFont_wght.ttf") format("embedded-opentype"), url("../fonts/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-Regular.ttf") format("truetype"), url("../fonts/Gilroy/Gilroy-Regular.svg#Gilroy") format("svg");
+  src: url("../fonts/Onest-VariableFont_wght.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Onest";
   font-weight: 500;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/Gilroy-Medium.eot");
-  src: url("../fonts/Gilroy-Medium.eot#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium.ttf") format("truetype"), url("../fonts/Gilroy/Gilroy-Medium.svg#Gilroy") format("svg");
+  src: url("../fonts/static/Onest-Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Onest";
   font-weight: 600;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/Gilroy-SemiBold.eot");
-  src: url("../fonts/Gilroy-SemiBold.eot#iefix") format("embedded-opentype"), url("../fonts/Gilroy-SemiBold.woff") format("woff"), url("../fonts/Gilroy-SemiBold.ttf") format("truetype"), url("../fonts/Gilroy/Gilroy-SemiBold.svg#Gilroy") format("svg");
+  src: url("../fonts/static/Onest-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Onest";
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/Gilroy-Bold.eot");
-  src: url("../fonts/Gilroy-Bold.eot#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold.ttf") format("truetype"), url("../fonts/Gilroy/Gilroy-Bold.svg#Gilroy") format("svg");
+  src: url("../fonts/static/Onest-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Onest";
   font-weight: 800;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/Gilroy-ExtraBold.eot");
-  src: url("../fonts/Gilroy-ExtraBold.eot#iefix") format("embedded-opentype"), url("../fonts/Gilroy-ExtraBold.woff") format("woff"), url("../fonts/Gilroy-ExtraBold.ttf") format("truetype"), url("../fonts/Gilroy/Gilroy-ExtraBold.svg#Gilroy") format("svg");
+  src: url("../fonts/static/Onest-ExtraBold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Onest";
   font-weight: 900;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/Gilroy-Black.eot");
-  src: url("../fonts/Gilroy-Black.eot#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Black.woff") format("woff"), url("../fonts/Gilroy-Black.ttf") format("truetype"), url("../fonts/Gilroy/Gilroy-Black.svg#Gilroy") format("svg");
+  src: url("../fonts/static/Onest-Black.ttf") format("truetype");
 }
 
-@font-face {
-  font-family: "Gilroy";
-  font-weight: 1000;
-  font-style: normal;
-  font-display: swap;
-  src: url("../fonts/Gilroy-Heavy.eot");
-  src: url("../fonts/Gilroy-Heavy.eot#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Heavy.woff") format("woff"), url("../fonts/Gilroy-Heavy.ttf") format("truetype"), url("../fonts/Gilroy/Gilroy-Heavy.svg#Gilroy") format("svg");
-}
 
 html,
 body,
@@ -1517,7 +1503,6 @@ border-radius: 30px;
   }
 
   body {
-    font-family: Arial, sans-serif;
     background: #040B16;
     color: #fff;
   }
@@ -1544,7 +1529,7 @@ border-radius: 30px;
   }
 
   .fit__title .mark {
-    color: #00d678;
+  color: #0bbd8e;
   }
 
   .fit__wrap {
@@ -1733,7 +1718,7 @@ border-radius: 30px;
 }
 
 .start-now__title .mark {
-  color: #00d678;
+  color: #0bbd8e;
 }
 
 .start-now__subtitle {
@@ -1744,7 +1729,6 @@ border-radius: 30px;
 
 .start-now__btn {
   display: inline-block;
-  
   background: linear-gradient(180deg, #873BD4 0%, #461F6E 100%); ;
   color: #ffffff;
   padding: 15px 26px;
