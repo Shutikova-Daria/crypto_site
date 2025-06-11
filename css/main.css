@@ -1500,11 +1500,16 @@ border-radius: 30px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+  font-family: "Onest", sans-serif;
   }
 
   body {
     background: #040B16;
     color: #fff;
+    
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
   }
 
   /* Секція "Кому підходить курс" */
