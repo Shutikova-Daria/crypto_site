@@ -437,16 +437,21 @@ border: 1px solid rgba(255, 255, 255, 0.5);
   width: 100%;
   padding: 40px 0;
 }
+
+/* Оптимізація для екранів 1920px і більше */
 @media screen and (min-width: 1920px) {
   .header {
     padding: 145px 0; /* Центрування */
-    
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
   }
 }
+
+/* Оптимізація для екранів від 1200px до 1920px */
+@media screen and (max-width: 1919px) and (min-width: 1200px) {
+  .header {
+    padding: 100px 0; /* Корекція відступів */
+  }
+}
+
 .header__container {
   display: flex;
   align-items: center;
