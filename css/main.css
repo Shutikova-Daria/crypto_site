@@ -437,7 +437,13 @@ border: 1px solid rgba(255, 255, 255, 0.5);
   width: 100%;
   padding: 40px 0;
 }
-
+@media screen and (min-width: 1920px) {
+  .header {
+    padding: 145px 0; /* Збільшений відступ для кращої пропорції */
+    max-width: 1920px; 
+    margin-left: -1%; /* Центрування */
+  }
+}
 .header__container {
   display: flex;
   align-items: center;
